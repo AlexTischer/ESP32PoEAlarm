@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+
+\bibitem{ESP32WiFiBluetooth}
+{{ESP32 Wi-Fi}} \& {{Bluetooth SoC}} {\textbar} {{Espressif Systems}}.
+\newblock URL: \url{https://www.espressif.com/en/products/socs/esp32}.
+
+\bibitem{assistantHomeAssistant}
+Home Assistant.
+\newblock Home {{Assistant}}.
+\newblock URL: \url{https://www.home-assistant.io/}.
+
+\bibitem{olimexESP32POEOpenSource}
+Olimex.
+\newblock {{ESP32-POE}} - {{Open Source Hardware Board}}.
+\newblock URL: \url{https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware}.
+
+\bibitem{MCP23017}
+{{MCP23017}}.
+\newblock URL: \url{https://www.microchip.com/en-us/product/mcp23017}.
+
+\bibitem{G5V1DC5}
+{G5V-1 DC5}.
+\newblock URL: \url{https://www.digikey.it/it/products/detail/omron-electronics-inc-emc-div/G5V-1-DC5/87831}.
+
+\bibitem{ESPHomeSmartHome}
+{{ESPHome}} - {{Smart Home Made Simple}}.
+\newblock URL: \url{https://esphome.io/index.html}.
+
+\bibitem{faberNielsfaberAlarmo2025}
+Niels Faber.
+\newblock Nielsfaber/alarmo, May 2025.
+\newblock URL: \url{https://github.com/nielsfaber/alarmo}.
+
+\bibitem{AlarmControlPanel}
+Alarm {{Control Panel Component}}.
+\newblock URL: \url{https://esphome.io/components/alarm_control_panel/index.html}.
+
+\bibitem{HLKLD242024GhzHumana}
+{{HLK-LD2420 24Ghz}} human body micro motion sensing detection radar sensor module {{HLK-LD2410}} low cost solution\_{{24G}} radar sensor module\_{{Products}}\_ {{Shenzhen Hi-Link Electronic Co}}., {{Ltd}}.
+\newblock URL: \url{https://www.hlktech.net/index.php?id=1150}.
+
+\bibitem{KiCadEDA}
+{{KiCad EDA}}.
+\newblock URL: \url{https://www.kicad.org/}.
+
+\bibitem{ESP32POEFootprintSymbol}
+{{ESP32-POE}} footprint \& symbol by {{Olimex}} {\textbar} {{SnapMagic Search}}.
+\newblock URL: \url{https://www.snapeda.com/parts/ESP32-POE/Olimex%20LTD/view-part/?ref=search&t=esp32-poe}.
+
+\bibitem{PN2222ABU}
+{PN2222ABU}.
+\newblock URL: \url{https://www.digikey.it/it/products/detail/onsemi/PN2222ABU/6534}.
+
+\bibitem{1N4007}
+{{1N4007}}.
+\newblock URL: \url{https://www.digikey.it/en/products/detail/onsemi/1N4007/965162}.
+
+\bibitem{PCBPrototypePCB}
+{{PCB Prototype}} \& {{PCB Fabrication Manufacturer}} - {{JLCPCB}}.
+\newblock URL: \url{https://jlcpcb.com/}.
+
+\bibitem{AutodeskFusion3D}
+Autodesk {{Fusion}} {\textbar} {{3D CAD}}, {{CAM}}, {{CAE}}, \& {{PCB Cloud-Based Software}} {\textbar} {{Autodesk}}.
+\newblock URL: \url{https://www.autodesk.com/products/fusion-360/overview}.
+
+\end{thebibliography}

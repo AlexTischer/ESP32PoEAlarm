@@ -1,0 +1,4 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe prototype was used to test the validity of the schematic design, the functionality of the components, and the capabilities of the integrated LDO regulator to power the board.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAt this stage, the firmware does not include any logic for handling alarms onboard, as this functionality is designed to be managed by Home Assistant's \"Alarmo\" integration.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QTesting the relay outputs by activating and deactivating them.\\E$"}
+{"rule":"AFFORD_VB","sentence":"^\\QKey lessons learned include: The importance of thorough research and component selection to ensure compatibility and functionality.\\E$"}

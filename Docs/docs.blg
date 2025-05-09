@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: docs.aux
+The style file: unsrturl.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: References/Esp32PoEAlarm.bib
+You've used 15 entries,
+            2616 wiz_defined-function locations,
+            648 strings with 6665 characters,
+and the built_in function-call counts, 3192 in all, are:
+= -- 270
+> -- 39
+< -- 0
++ -- 18
+- -- 3
+* -- 50
+:= -- 279
+add.period$ -- 33
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 105
+empty$ -- 530
+format.name$ -- 3
+if$ -- 1058
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 0
+newline$ -- 66
+num.names$ -- 3
+pop$ -- 164
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 361
+stack$ -- 0
+substring$ -- 0
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 3
+width$ -- 17
+write$ -- 114

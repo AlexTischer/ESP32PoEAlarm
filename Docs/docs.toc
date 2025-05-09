@@ -1,0 +1,39 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Main Objectives}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Hardware features}{5}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Hardware Structure}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Microcontroller}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Power Supply}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Logic input/output operations}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Relay outputs}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Software Structure}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Configuration File}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Device and Platform Settings}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Networking}{8}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Communication}{8}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}I\textsuperscript {2}C Bus}{9}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}GPIO Expander}{9}{subsubsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.6}Inputs}{9}{subsubsection.3.1.6}%
+\contentsline {subsubsection}{\numberline {3.1.7}Outputs}{10}{subsubsection.3.1.7}%
+\contentsline {subsubsection}{\numberline {3.1.8}OTA Updates}{10}{subsubsection.3.1.8}%
+\contentsline {subsection}{\numberline {3.2}Firmware Generation}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Integration with Home Assistant}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Event Handling}{11}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Runtime Behavior}{11}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Sensors}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Reed Switches}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Radar Sensors}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}PIR Sensors}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Design and Prototyping}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Schematic Design}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Component Selection, BOM}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Breadboard Prototyping}{16}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}PCB Layout}{17}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}PCB Manufacturing}{18}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}PCB Assembly}{19}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Testing and Validation}{20}{section.6}%
+\contentsline {section}{\numberline {7}Enclosure}{22}{section.7}%
+\contentsline {section}{\numberline {8}Conclusion}{23}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Possible Improvements}{23}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Lessons Learned}{23}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Final Remarks}{24}{subsection.8.3}%

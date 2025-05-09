@@ -1,0 +1,234 @@
+esphome:
+  name: alarm
+  friendly_name: Alarm
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "{REDACTED}"
+  reboot_timeout: 0s
+
+
+ota:
+  - platform: esphome
+    password: "{REDACTED}"
+
+
+web_server:
+  port: 80
+
+ethernet:
+  type: LAN8720
+  mdc_pin: GPIO23
+  mdio_pin: GPIO18
+  clk_mode: GPIO17_OUT
+  phy_addr: 0
+  power_pin: GPIO12
+  use_address: 192.168.1.250
+
+i2c:
+  sda: GPIO16
+  scl: GPIO13
+  scan: true
+  id: bus_a
+
+# Example configuration entry
+mcp23017:
+  - id: 'mcp23017_hub'
+    address: 0x20
+
+binary_sensor:
+  - platform: gpio
+    name: "MCP23017 Pin A0"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin A0
+      number: 0
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin A1"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin A1
+      number: 1
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin A2"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin A2
+      number: 2
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin A3"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin A3
+      number: 3
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin A4"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin A4
+      number: 4
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin A5"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin A5
+      number: 5
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin A6"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin A6
+      number: 6
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin A7"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin A7
+      number: 7
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin B0"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin B0
+      number: 8
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin B1"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin B1
+      number: 9
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin B2"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin B2
+      number: 10
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin B3"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin B3
+      number: 11
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin B4"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin B4
+      number: 12
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin B5"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin B5
+      number: 13
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin B6"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin B6
+      number: 14
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+  - platform: gpio
+    name: "MCP23017 Pin B7"
+    pin:
+      mcp23xxx: mcp23017_hub
+      # Use pin B7
+      number: 15
+      # One of INPUT or INPUT_PULLUP
+      mode:
+        input: true
+        pullup: true
+      inverted: false
+
+switch:
+  - platform: gpio
+    name: "Relay1"
+    id: relay1
+    pin: GPIO32
+  - platform: gpio
+    name: "Relay2"
+    id: relay2
+    pin: GPIO33
